@@ -1,0 +1,11 @@
+@charset "utf-8";
+.project_img img { display: block; width: 90%; margin: 0 auto; margin-bottom: 50px; } 
+.project_img.ppt { background: #ececec; padding: 100px 0; } 
+.project_img.ppt img { width: auto; box-shadow: 0 0 20px 0px #00000008; } 
+
+.iot_mobile_img { display: flex; align-items: flex-start; justify-content: flex-start; } 
+.iot_mobile_img img { width: auto; } 
+.geogreen_kiosk { display: flex; flex-wrap: wrap; } 
+.geogreen_kiosk img { width: 49%; margin-right: 1%; } 
+.drt_link { display: block; background: url("../images/sub/ico_drt_link.svg") no-repeat left 9px top 7px; background-size: 28px; font-weight: 500; font-size: 18px; border: 2px dotted black; padding: 12px 43px; } 
+.drt_link:hover { text-decoration: underline; } 

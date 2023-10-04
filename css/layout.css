@@ -1,0 +1,17 @@
+@charset "utf-8";.wrap { width:100%; position: relative; min-width: 1400px; } 
+
+.header { height: 60px; padding: 0 2%; display: flex; justify-content: space-between; background: #fff; position: fixed; width: 100%; box-shadow: -1px 7px 20px 0 #78787842; z-index: 1000; } 
+.header h1 { display: flex; align-items: center; } 
+.header h1 a { text-transform: uppercase; font-size: 20px; font-weight: 700; display: block; height: 100%; line-height: 60px; width: 100%; } 
+
+.header .gnb ul { display: flex; align-items: center; height: 100%; } 
+.header .gnb ul li { display: flex; align-items: center; height: 100%; } 
+.header .gnb ul li a {height: 100%;display: flex;align-items: center;font-weight: 600;font-size: 17px;font-family: 'montserrat';text-transform: capitalize;padding: 20px 25px;} 
+
+.body { height: 100%; } 
+
+.sub_contents { padding-top: 100px; padding: 100px 2%; } 
+.sub_tit_area { width:100%; margin-bottom: 100px; } 
+.sub_tit_area h2 { font-size: 80px; text-transform: capitalize; margin-bottom: 40px; } 
+.sub_tit_area p { font-size: 1.8em; margin-bottom: 17px; font-weight: 600; } 
+.sub_tit_area b { background: black; font-size: 18px; color: #fff; padding: 10px 20px; display: block; font-weight: 500; margin-bottom: 19px; } 
